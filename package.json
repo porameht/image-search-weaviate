@@ -1,0 +1,19 @@
+{
+  "name": "image-search-weaviate",
+  "version": "1.0.0",
+  "description": "curl -o docker-compose.yml \"https://configuration.weaviate.io/v2/docker-compose/docker-compose.yml?generative_cohere=false&generative_openai=false&generative_palm=false&image_neural_model=pytorch-resnet50&media_type=image&modules=modules&ref2vec_centroid=false&reranker_cohere=false&runtime=docker-compose&weaviate_version=v1.20.5\"",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "weaviate-ts-client": "^1.4.0"
+  }
+}
